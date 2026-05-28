@@ -67,7 +67,7 @@ module tb_good_mux;
 	sel = 0;
 	i0 = 0;
 	i1 = 0;
-	#300 $finish;
+    #300 $finish;
 	end
 
 always #75 sel = ~sel;
@@ -76,7 +76,58 @@ always #55 i1 = ~i1;
 endmodule
 
 ```
+The following iverilog command need to execute to create VCD file:
+```bash
+iverilog -o good_mux good_mux.v tb_good_mux.v
+./good_mux
+```
+This will create VCD file by name "tb_good_mux.vcd"
 
+After this following gtkwave command:
+```bash
+gktwave tb_good_mux.vcd
+```
 ## Yosys
+Yosys is a Synthesizer. What is **Synthesizer**? Synthesizer is a tool used to convert **RTL** to **Netlist**. Netlist is the representation of the cirucit that describe how different hardware component and logic gates are connected to each other.
 
+At the end we want to know cirucit representation of the design we have developed according to the specifications. Yosys take the **verilog file** of our design and **.lib** file and provide what hardware and logical gates does are design is going to use in actual cirucit.
+ - **.lib** : It contain all the basic logical gates which we want to use in the cirucit representataion of our design. 
+ - **Flavour**: Each logic gate in **.lib** file have different variations which we called flavour. This flavours are slow, medium and fast. According to our need.
 ## Lab Demonstration (Yosys)
+To enter the Yosys environment use the following command:
+```bash
+yosys
+```
+
+Read the **.lib** in the yosys environment with the following command:
+```bash
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+```
+
+Read the verilog file:
+```bash
+read_verilog good_mux.v
+```
+
+Select the top module that you want to synthesis:
+```bash
+synth -top good_mux
+```
+
+Generate the netlist:
+```bash
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+```
+
+Write the verilog code for the netlist showing the basic logic gate
+```bash
+write_verilog good_mux_netlist.v
+```
+
+Use the following command to see the netlist diagram:
+```bash
+show
+```
+<div align="center">
+    <img src=show_result.png>
+</div>
