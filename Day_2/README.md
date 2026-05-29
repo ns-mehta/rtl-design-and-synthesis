@@ -32,11 +32,7 @@ The **"flatten"** is the command need to be executed to generate the **Flattened
 There different types of Flip-Flop, we are going to work with the following:
 
 ### Asynchronous Reset D Flip-Flop
-<table>
-<tr>
-<td width="50%" valign="top">
-
-<pre><code>
+```verilog
 module dff_asyncres ( input clk ,  input async_reset , input d , output reg q );
 always @ (posedge clk , posedge async_reset)
 begin
@@ -46,24 +42,14 @@ begin
 		q <= d;
 end
 endmodule
-
-</code></pre>
-
-</td>
-<td width="50%" valign="top">
-
+```
+<div align="center">
 <img src=dff_asyncres.png>
+</div>
 
-</td>
-</tr>
-</table>
 
 ### Asynchronous Set D Flip-Flop
-<table>
-<tr>
-<td width="50%" valign="top">
-
-<pre><code>
+```verilog
 module dff_async_set ( input clk ,  input async_set , input d , output reg q );
 always @ (posedge clk , posedge async_set)
 begin
@@ -73,24 +59,14 @@ begin
 		q <= d;
 end
 endmodule
-
-</code></pre>
-
-</td>
-<td width="50%" valign="top">
-
+```
+<div align="center">
 <img src=dff_async_set.png>
+</div>
 
-</td>
-</tr>
-</table>
 
 ### Synchronous Reset D Flip-Flop
-<table>
-<tr>
-<td width="50%" valign="top">
-
-<pre><code>
+```verilog
 module dff_syncres ( input clk , input async_reset , input sync_reset , input d , output reg q );
 always @ (posedge clk )
 begin
@@ -100,14 +76,7 @@ begin
 		q <= d;
 end
 endmodule
-
-</code></pre>
-
-</td>
-<td width="50%" valign="top">
-
+```
+<div align="center">
 <img src=dff_syncres.png>
-
-</td>
-</tr>
-</table>
+</div>
