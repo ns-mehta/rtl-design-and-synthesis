@@ -7,3 +7,18 @@ When **if-else** is used in HDL code, we all know the following order will be fo
 <div align=center>
     <img src=if_const.png>
 </div> 
+<div align=center>
+    <img src=comp_if_dig.svg>
+</div>
+
+This will properly happen if in each condition what signal to be executed is properly mentioned. Consider in the HDL code we only use the **if** statment and didn't write anything about the **else** like the following HDL code.
+```verilog
+module incomp_if (input i0 , input i1 , input i2 , output reg y);
+always @ (*)
+begin
+	if(i0)
+		y <= i1;
+end
+endmodule
+
+```
