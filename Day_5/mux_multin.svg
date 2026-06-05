@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="74.278793mm"
+   height="96.033699mm"
+   viewBox="0 0 74.278793 96.033699"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="true">
+    <inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="-41.221207"
+       originy="-124.19098"
+       spacingx="0.99999998"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+    <inkscape:page
+       x="0"
+       y="0"
+       width="74.278793"
+       height="96.033699"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-41.221202,-124.19098)">
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:round"
+       d="M 70.000002,139.99999 H 55"
+       id="path1" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:round"
+       d="M 70.000002,154.99999 H 55"
+       id="path2" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:round"
+       d="M 70.000002,169.99999 H 55"
+       id="path3" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:round"
+       d="M 70.000002,184.99999 H 55"
+       id="path4" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:round"
+       d="m 70.000002,124.99999 v 75 L 100,184.99999 V 140 Z"
+       id="path5" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:round"
+       d="m 100,162.49999 h 15"
+       id="path6" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:round"
+       d="m 85.000001,192.49999 v 22.5"
+       id="path7" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;writing-mode:lr-tb;direction:ltr;fill:none;stroke:#ffffff;stroke-width:0.2;stroke-linecap:round;stroke-dasharray:none"
+       x="41.146019"
+       y="141.2128"
+       id="text7"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         style="fill:#ffffff;stroke-width:0.2;stroke-dasharray:none"
+         x="41.146019"
+         y="141.2128">condi 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;writing-mode:lr-tb;direction:ltr;fill:none;stroke:#ffffff;stroke-width:0.2;stroke-linecap:round;stroke-dasharray:none"
+       x="41.146019"
+       y="156.2128"
+       id="text8"><tspan
+         sodipodi:role="line"
+         id="tspan8"
+         style="fill:#ffffff;stroke-width:0.2;stroke-dasharray:none"
+         x="41.146019"
+         y="156.2128">condi 2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;writing-mode:lr-tb;direction:ltr;fill:none;stroke:#ffffff;stroke-width:0.2;stroke-linecap:round;stroke-dasharray:none"
+       x="41.146019"
+       y="171.2128"
+       id="text9"><tspan
+         sodipodi:role="line"
+         id="tspan9"
+         style="fill:#ffffff;stroke-width:0.2;stroke-dasharray:none"
+         x="41.146019"
+         y="171.2128">condi 3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;writing-mode:lr-tb;direction:ltr;fill:none;stroke:#ffffff;stroke-width:0.2;stroke-linecap:round;stroke-dasharray:none"
+       x="41.146019"
+       y="186.2128"
+       id="text10"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         style="fill:#ffffff;stroke-width:0.2;stroke-dasharray:none"
+         x="41.146019"
+         y="186.2128">condi 4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;writing-mode:lr-tb;direction:ltr;fill:#ffffff;stroke:#ffffff;stroke-width:0.2;stroke-linecap:round;stroke-dasharray:none"
+       x="79.735176"
+       y="220.07971"
+       id="text11"><tspan
+         sodipodi:role="line"
+         id="tspan11"
+         style="stroke-width:0.2"
+         x="79.735176"
+         y="220.07971">select</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;writing-mode:lr-tb;direction:ltr;fill:#ffffff;stroke:#ffffff;stroke-width:0.2;stroke-linecap:round;stroke-dasharray:none"
+       x="81.274651"
+       y="163.13481"
+       id="text12"><tspan
+         sodipodi:role="line"
+         id="tspan12"
+         style="stroke-width:0.2"
+         x="81.274651"
+         y="163.13481">MUX</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.2"
+         x="81.274651"
+         y="167.10356"
+         id="tspan13" /></text>
+  </g>
+</svg>
