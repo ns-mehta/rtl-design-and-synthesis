@@ -6,6 +6,8 @@
 3. [Efficient Flop Coding](#efficient-flop-coding)
 
 ## Intorduction to Timing Libraiers
+Timing libraries are files that describe the timing, power, and electrical behavior of standard cells, I/O cells, and macros. These libraries are essential for synthesis, STA (Static Timing Analysis), and physical design. They are usually delivered in Liberty (.lib) format.
+
 ## Synthesis Methods
 ### Hierarchical Synthesis
 In this method, we divide our design into submodule according to specifications. The following are the advantage:
